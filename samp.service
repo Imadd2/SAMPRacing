@@ -9,6 +9,6 @@ WorkingDirectory=/opt/samp
 Environment=GRG_AUDIO_URL=http://your-host.example.com/audio
 ExecStart=/opt/samp/samp03svr
 Restart=on-failure
-
+/opt
 [Install]
 WantedBy=multi-user.target
